@@ -71,6 +71,7 @@ h4{
 	background-color: white;
 	float: left;
 	padding: 18px 18px 0;
+	margin-bottom: 2em;
 	box-sizing: border-box;
 }
 
@@ -118,6 +119,25 @@ h4{
 
 .organizers-menu{
 	color: $brand-color;
+	
+	h2{
+		font-size: 1rem;
+	}
+	
+	h3{
+		margin: 0;
+	}
+}
+
+.we-about-menu{
+	p{
+		color: black;
+	}
+
+	a{
+		@extend h3;
+		color: $brand-color;
+	}	
 }
 
 

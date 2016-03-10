@@ -82,7 +82,7 @@ h2 {
   letter-spacing: -0.25px;
   color: #6fbbb7; }
 
-h3 {
+h3, .we-about-menu a {
   font-size: 13px;
   line-height: 1.6;
   margin-top: 0;
@@ -100,6 +100,7 @@ h4 {
   background-color: white;
   float: left;
   padding: 18px 18px 0;
+  margin-bottom: 2em;
   box-sizing: border-box; }
 
 .bottom-border {
@@ -133,6 +134,15 @@ h4 {
     padding-right: 1em; }
 
 .organizers-menu {
+  color: #6fbbb7; }
+  .organizers-menu h2 {
+    font-size: 1rem; }
+  .organizers-menu h3, .organizers-menu .we-about-menu a, .we-about-menu .organizers-menu a {
+    margin: 0; }
+
+.we-about-menu p {
+  color: black; }
+.we-about-menu a {
   color: #6fbbb7; }
 
 /*# sourceMappingURL=main.css.map */
