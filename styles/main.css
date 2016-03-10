@@ -48,6 +48,33 @@
 
   .col-md-12 {
     width: 100%; } }
+.types-of-classes {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  line-height: 1px;
+  font-size: 13px;
+  color: #6fbbb7;
+  padding: 10px 0; }
+  .types-of-classes .classes {
+    float: left;
+    width: 71.42855%; }
+  .types-of-classes .classes-number {
+    float: right;
+    text-align: right;
+    padding-right: 1em; }
+
+.organizers-menu {
+  color: #6fbbb7; }
+  .organizers-menu h2 {
+    font-size: 1rem; }
+  .organizers-menu h3, .organizers-menu .we-about-menu a, .we-about-menu .organizers-menu a {
+    margin: 0; }
+
+.we-about-menu p {
+  color: black; }
+.we-about-menu a {
+  color: #6fbbb7; }
+
 body {
   background-color: #f4f4f4; }
 
@@ -117,32 +144,5 @@ h4 {
   padding: 8px;
   color: #6fbbb7;
   font-size: 13px; }
-
-.types-of-classes {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  line-height: 1px;
-  font-size: 13px;
-  color: #6fbbb7;
-  padding: 10px 0; }
-  .types-of-classes .classes {
-    float: left;
-    width: 71.42855%; }
-  .types-of-classes .classes-number {
-    float: right;
-    text-align: right;
-    padding-right: 1em; }
-
-.organizers-menu {
-  color: #6fbbb7; }
-  .organizers-menu h2 {
-    font-size: 1rem; }
-  .organizers-menu h3, .organizers-menu .we-about-menu a, .we-about-menu .organizers-menu a {
-    margin: 0; }
-
-.we-about-menu p {
-  color: black; }
-.we-about-menu a {
-  color: #6fbbb7; }
 
 /*# sourceMappingURL=main.css.map */

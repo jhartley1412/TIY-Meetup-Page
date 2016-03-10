@@ -1,0 +1,46 @@
+
+@import 'variables';
+
+.types-of-classes{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+
+	line-height: 1px;
+	font-size: 13px;
+	color: $brand-color;
+	padding: 10px 0;
+
+	.classes{
+		float: left;
+		width: 71.42855%;
+	}
+
+	.classes-number{
+		float: right;
+		text-align: right;
+		padding-right: 1em;
+	}
+}
+
+.organizers-menu{
+	color: $brand-color;
+	
+	h2{
+		font-size: 1rem;
+	}
+	
+	h3{
+		margin: 0;
+	}
+}
+
+.we-about-menu{
+	p{
+		color: black;
+	}
+
+	a{
+		@extend h3;
+		color: $brand-color;
+	}	
+}
