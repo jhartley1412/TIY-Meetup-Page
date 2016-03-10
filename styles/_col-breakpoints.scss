@@ -1,3 +1,20 @@
+// COLUMNS & BREAKPOINTS
+
+$tot-width: 100%;
+$num-col: 12;
+$gut-width: 2%;
+
+$ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col; //remember PEMAS //ALWAYS HAVE SPACE between $var - #
+
+         // geezee = # of columns within element
+@mixin grid($geezee){
+  width: ($geezee * $ind-col-width) + ($gut-width *($geezee - 1 ));
+}
+
+
+
+
+
 @media (min-width: 0){
 
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15{
@@ -56,31 +73,16 @@
   }
 
   .col-md-10{
-    width: 65.6666666667%;
+    width: 83%;
     margin-right: $gut-width;
   }
 
   .col-md-11{
-    width: 72.5333333334%;
+    width: 91.5%;
     margin-right: $gut-width;
   }
 
   .col-md-12{
-    width: 79.4%;
-    margin-right: $gut-width;
-  }
-
-  .col-md-13{
-    width: 86.2666666667%;
-    margin-right: $gut-width;
-  }
-
-  .col-md-14{
-    width: 93.1333333334%;
-    margin-right: $gut-width;
-  }
-
-  .col-md-15{
     width: 100%;
     margin-right: $gut-width;
   }
