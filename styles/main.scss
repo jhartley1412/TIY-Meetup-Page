@@ -1,6 +1,8 @@
 
 @import 'col-breakpoints.scss';
 
+$brand-color: #6fbbb7;
+
 body{
 	background-color: #f4f4f4;
 }
@@ -9,6 +11,11 @@ body{
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
+}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
 }
 
 header{
@@ -28,12 +35,88 @@ header{
 	}
 }
 
+
+
+h2{
+	font-size: 20px;
+	font-size: 1.25rem;
+	padding-bottom: 6px;
+	line-height: 1.2;
+	letter-spacing: -0.25px;
+	color: $brand-color;
+}
+
+h3{
+	font-size: 13px;
+	line-height: 1.6;
+	margin-top: 0;
+	margin-bottom: 18px;
+}
+
 .side-article, .middle-menu{
 	border: 1px solid #ddd;
 	background-color: white;
 	float: left;
+	padding: 18px 18px 0;
+	box-sizing: border-box;
 }
 
-.middle-menu{
-	
+.bottom-border{
+	border-bottom: 1px solid #ddd;
 }
+
+.left-menu{
+	.logo{
+		width: 80%;
+	}
+}
+
+.button-1{
+	background-color: #EDEDED;
+	border-radius: 3px;
+	text-align: center;
+	margin: 12px 0;
+	padding: 8px;
+
+	color: $brand-color;
+	font-size: 13px;
+}
+
+.types-of-classes{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+
+	line-height: 1;
+	font-size: 13px;
+	color: $brand-color;
+	padding: 10px 0;
+
+	.classes{
+		float: left;
+		width: 71.42855%;
+	}
+
+	.classes-number{
+		text-align: right;
+	}
+
+	.double-decker-text{
+		padding-bottom: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
