@@ -67,12 +67,13 @@
   color: #6fbbb7; }
   .organizers-menu h2 {
     font-size: 1rem; }
-  .organizers-menu h3, .organizers-menu .we-about-menu a, .we-about-menu .organizers-menu a {
-    margin: 0; }
+  .organizers-menu h3, .organizers-menu .we-about-menu a, .we-about-menu .organizers-menu a, .organizers-menu .we-about-menu .clickable-text, .we-about-menu .organizers-menu .clickable-text {
+    margin: 0;
+    color: #6fbbb7; }
 
 .we-about-menu p {
   color: black; }
-.we-about-menu a {
+.we-about-menu a, .we-about-menu .clickable-text {
   color: #6fbbb7; }
 
 body {
@@ -83,10 +84,10 @@ body {
   max-width: 960px;
   margin: 0 auto; }
 
-a {
+a, .clickable-text {
   cursor: pointer;
   text-decoration: none; }
-  a:hover {
+  a:hover, .clickable-text:hover {
     text-decoration: underline;
     color: #6fbbb7; }
 
@@ -98,7 +99,7 @@ header {
   border-radius: 3px; }
   header nav {
     width: 100%; }
-    header nav a {
+    header nav a, header nav .clickable-text {
       color: blue; }
 
 h2 {
@@ -109,18 +110,21 @@ h2 {
   letter-spacing: -0.25px;
   color: #6fbbb7; }
 
-h3, .we-about-menu a {
+h3, .we-about-menu a, .we-about-menu .clickable-text {
   font-size: 13px;
   line-height: 1.6;
   margin-top: 0;
   margin-bottom: 18px; }
 
-h4 {
+h4, .meetup-event p {
   font-size: 16px;
   font-size: 1rem;
   padding-bottom: 0;
   line-height: 1.4;
   letter-spacing: -0.5px; }
+
+.odd-text-out {
+  color: #918E8E; }
 
 .side-article, .middle-menu {
   border: 1px solid #ddd;
@@ -144,5 +148,25 @@ h4 {
   padding: 8px;
   color: #6fbbb7;
   font-size: 13px; }
+
+.clickable-text {
+  color: #6fbbb7; }
+
+.meetup-event .meetup-leftside {
+  float: left;
+  border-right: 1px solid #ddd;
+  width: 71.42855%; }
+.meetup-event h3, .meetup-event .we-about-menu a, .we-about-menu .meetup-event a, .meetup-event .we-about-menu .clickable-text, .we-about-menu .meetup-event .clickable-text {
+  color: #918E8E; }
+.meetup-event h4, .meetup-event p {
+  color: #6fbbb7; }
+.meetup-event p {
+  color: #918E8E; }
+
+.profile-line {
+  height: 30px;
+  width: 300px;
+  background-color: #6fbbb7;
+  clear: both; }
 
 /*# sourceMappingURL=main.css.map */

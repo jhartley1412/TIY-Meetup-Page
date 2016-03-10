@@ -31,10 +31,12 @@
 	
 	h3{
 		margin: 0;
+		color: $brand-color;
 	}
 }
 
 .we-about-menu{
+
 	p{
 		color: black;
 	}
@@ -43,4 +45,5 @@
 		@extend h3;
 		color: $brand-color;
 	}	
+
 }

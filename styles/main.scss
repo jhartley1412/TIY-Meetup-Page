@@ -69,6 +69,11 @@ h4{
 	letter-spacing: -0.5px;
 }
 
+// specifically h3 within left-menu "Founded March 19..."
+.odd-text-out{
+	color: $brand-grey;
+}
+
 .side-article, .middle-menu{
 	border: 1px solid #ddd;
 	background-color: white;
@@ -99,9 +104,41 @@ h4{
 	font-size: 13px;
 }
 
+.clickable-text{
+	color: $brand-color;
+	@extend a;
+}
 
 
 
+.meetup-event{
+	
+	.meetup-leftside{
+		float: left;
+		border-right: 1px solid #ddd;
+		width: 71.42855%;
+	}
+	
+	h3{
+		color: $brand-grey;
+	}
+
+	h4{
+		color: $brand-color;
+	}
+
+	p{
+		@extend h4;
+		color: $brand-grey;
+	}
+}
+
+.profile-line{
+	height: 30px;
+	width: 300px;
+	background-color: $brand-color;
+	clear: both;
+}
 
 
 
