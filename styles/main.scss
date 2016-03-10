@@ -1,3 +1,19 @@
+
+@import 'col-breakpoints.scss';
+
 body{
 	background-color: #f4f4f4;
+}
+
+
+
+$tot-width: 100%;
+$num-col: 15;
+$gut-width: 3%;
+
+$ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col; //remember PEMAS //ALWAYS HAVE SPACE between $var - #
+
+         // geezee = # of columns within element
+@mixin grid($geezee){
+  width: ($geezee * $ind-col-width) + ($gut-width *($geezee - 1 ));
 }
