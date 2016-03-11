@@ -74,6 +74,9 @@ a, .clickable-text {
     text-decoration: underline;
     color: #6fbbb7; }
 
+.left-menu {
+  padding-bottom: 1rem; }
+
 .left-menu-logo {
   text-align: center; }
   .left-menu-logo .logo {
@@ -116,15 +119,13 @@ a, .clickable-text {
     margin: 0;
     color: #6fbbb7; }
 
-.we-about-menu {
-  padding-bottom: 1rem; }
-  .we-about-menu p {
-    color: black;
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: 600; }
-  .we-about-menu a, .we-about-menu .clickable-text {
-    color: #6fbbb7; }
+.we-about-menu p {
+  color: black;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 600; }
+.we-about-menu a, .we-about-menu .clickable-text {
+  color: #6fbbb7; }
 
 .left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
@@ -145,7 +146,8 @@ a, .clickable-text {
     margin-bottom: 0; }
 
 .suggest-meetup, .suggest-meetup-tabs {
-  width: 95%;
+  width: 90%;
+  max-width: 431px;
   margin: 0 auto;
   padding-top: 0;
   border: 1px solid white;
@@ -177,6 +179,8 @@ a, .clickable-text {
     color: #6fbbb7;
     margin: 0;
     padding: 6px 0 6px 0; }
+  .suggest-meetup-tabs:hover {
+    background-color: #EDEDED; }
 
 .meetups-event {
   overflow: hidden;
@@ -247,6 +251,54 @@ a, .clickable-text {
   .meetups-event-rightside .button-1 {
     text-align: left; }
 
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
+  width: 100%;
+  padding: 18px 18px 0 18px;
+  box-sizing: border-box; }
+
+a, .clickable-text {
+  color: #6fbbb7;
+  cursor: pointer;
+  text-decoration: none; }
+  a:hover, .clickable-text:hover {
+    text-decoration: underline;
+    color: #6fbbb7; }
+
+.right-menu {
+  float: right;
+  margin-right: 0; }
+
+.whats-new {
+  padding-bottom: 1rem; }
+  .whats-new p {
+    color: black;
+    margin-top: 0;
+    font-size: 19px;
+    font-weight: 600; }
+
+.whats-new-top-img {
+  margin: 0 auto;
+  padding-bottom: 0.5rem; }
+
+.whats-new-feed {
+  padding-top: 6px; }
+  .whats-new-feed h5 {
+    font-size: 12px;
+    margin: 0;
+    color: #918E8E;
+    padding-bottom: 6px; }
+  .whats-new-feed p {
+    width: 95%;
+    font-size: 15px;
+    color: #918E8E; }
+  .whats-new-feed .odd-text-out {
+    color: #6fbbb7; }
+
+.whats-new-feed-img {
+  float: right;
+  width: 30px;
+  height: 30px; }
+
 body {
   background-color: #f4f4f4;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
@@ -261,14 +313,27 @@ body {
 
 header {
   width: 100%;
-  height: 200px;
   background-color: white;
+  margin-top: 1rem;
   margin-bottom: 18px;
   border-radius: 3px; }
   header nav {
-    width: 100%; }
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem; }
     header nav a, header nav .clickable-text {
-      color: blue; }
+      font-size: 18px;
+      padding: 0.5rem;
+      color: #918E8E; }
+    header nav a:hover, header nav .clickable-text:hover {
+      color: white;
+      background-color: #2C343A;
+      padding: 0.5rem;
+      border-radius: 3px;
+      text-decoration: none; }
+
+.head-background-img {
+  height: 150px; }
 
 h1 {
   font-size: 28px;
@@ -309,7 +374,8 @@ h5 {
   border: 1px solid #ddd;
   background-color: white;
   float: left;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 3px; }
 
 .bottom-border {
   border-bottom: 1px solid #ddd; }
@@ -338,40 +404,5 @@ h5 {
 
 .clickable-text {
   color: #6fbbb7; }
-
-.right-menu {
-  float: right;
-  margin-right: 0; }
-
-.whats-new {
-  padding-bottom: 1rem; }
-  .whats-new p {
-    color: black;
-    margin-top: 0;
-    font-size: 19px;
-    font-weight: 600; }
-
-.whats-new-top-img {
-  margin: 0 auto;
-  padding-bottom: 0.5rem; }
-
-.whats-new-feed {
-  padding-top: 6px; }
-  .whats-new-feed h5 {
-    font-size: 12px;
-    margin: 0;
-    color: #918E8E;
-    padding-bottom: 6px; }
-  .whats-new-feed p {
-    width: 95%;
-    font-size: 15px;
-    color: #918E8E; }
-  .whats-new-feed .odd-text-out {
-    color: #6fbbb7; }
-
-.whats-new-feed-img {
-  float: right;
-  width: 30px;
-  height: 30px; }
 
 /*# sourceMappingURL=main.css.map */

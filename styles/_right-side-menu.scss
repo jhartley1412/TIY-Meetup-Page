@@ -1,0 +1,55 @@
+
+@import 'variables';
+
+.right-menu{
+	float: right;
+	margin-right: 0;
+}
+
+.whats-new{
+	@extend %basic-padding-border;
+
+	padding-bottom: 1rem;
+
+
+	p{
+		color: black;
+		margin-top: 0;
+		font-size: 19px;
+		font-weight: 600;
+	}
+}
+
+.whats-new-top-img{
+	margin: 0 auto;
+	padding-bottom: 0.5rem;
+}
+
+.whats-new-feed{
+	@extend %basic-padding-border;
+
+	padding-top: 6px;
+
+	h5{
+		font-size: 12px;
+		margin: 0;
+		color: $brand-grey;
+		padding-bottom: 6px;
+	}
+	
+	p{
+		width: 95%;
+		font-size: 15px;
+		color: $brand-grey;
+	}
+	
+	.odd-text-out{
+		color: $brand-color;
+	}
+}
+
+.whats-new-feed-img{
+	float: right;
+	width: 30px;
+	height: 30px;
+}
