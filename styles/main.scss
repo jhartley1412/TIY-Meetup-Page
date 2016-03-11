@@ -175,14 +175,18 @@ h5{
 
 .meetups-event{
 	@extend %basic-padding-border;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
 
 	h2{
-		margin-top: 0;
+		margin: 0;
+		margin-bottom: 0.5rem;
 	}
 }
 
 .meetups-event-leftside{
 	width: 65%;
+	float: left;
 	margin-top: 0;
 	
 	h3{
@@ -232,6 +236,41 @@ h5{
 	.odd-text-out{
 		color: $brand-color;
 		font-size: 13px;
+	}
+}
+
+.meetups-event-hosted-by{
+	padding: 1rem 0;
+	color: $brand-grey;
+}
+
+.meetups-event-rightside{
+	float: left;
+	margin-left: 1rem;
+
+	h2{
+		font-size: 18px;
+		color: $brand-grey;
+		font-weight: 300;
+		margin: 0;
+	}
+
+	h3{
+		color: $brand-grey;
+		margin: 0;
+	}
+
+	p{
+		color: $brand-grey;
+	}
+
+	.odd-text-out{
+		color: $brand-color;
+		padding-left: 0.3rem;
+	}
+
+	.button-1{
+		text-align: left;
 	}
 }
 
