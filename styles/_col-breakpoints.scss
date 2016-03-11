@@ -24,7 +24,7 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col; //remem
 }
 
 
-@media (min-width: 500px){
+@media (min-width: 768px){
   
   .col-md-1{
     width: 6.5%;

@@ -17,6 +17,7 @@ body{
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 
@@ -110,9 +111,7 @@ h5{
 }
 
 
-.middle-menu{
-	background-color: green;
-}
+
 
 .middle-head{
 	@extend %basic-padding-border;
@@ -175,7 +174,6 @@ h5{
 
 
 .meetups-event{
-	background-color: pink;
 	@extend %basic-padding-border;
 
 	h2{
@@ -184,7 +182,7 @@ h5{
 }
 
 .meetups-event-leftside{
-	width: 73%;
+	width: 65%;
 	margin-top: 0;
 	
 	h3{
@@ -208,16 +206,32 @@ h5{
 	height: 30px;
 
 	.profiles-icon{
+		height: 100%;
 		max-height: 30px;
 		border: 1px solid white;
 		box-sizing: border-box;
 	}
 
 	.more-profiles{
+		display: inline-block;
+		margin: 0;
+		margin-top: -1em;
 		width: 30px;
 		height: 30px;
 		text-align: center;
 		background-color: #DDE8F4;
+	}
+}
+
+.meetups-event-info{
+	color: $brand-grey;
+	padding-top: 18px;
+
+	font-size: 18px;
+
+	.odd-text-out{
+		color: $brand-color;
+		font-size: 13px;
 	}
 }
 

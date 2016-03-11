@@ -1,7 +1,7 @@
 @media (min-width: 0) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
     width: 100%; } }
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   .col-md-1 {
     width: 6.5%;
     margin-right: 2%; }
@@ -132,7 +132,8 @@ body {
 .container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
 header {
   width: 100%;
@@ -201,9 +202,6 @@ h5 {
 .clickable-text {
   color: #6fbbb7; }
 
-.middle-menu {
-  background-color: green; }
-
 .middle-head {
   padding-bottom: 1rem; }
   .middle-head h1 {
@@ -243,13 +241,11 @@ h5 {
     margin: 0;
     padding: 6px 0 6px 0; }
 
-.meetups-event {
-  background-color: pink; }
-  .meetups-event h2 {
-    margin-top: 0; }
+.meetups-event h2 {
+  margin-top: 0; }
 
 .meetups-event-leftside {
-  width: 73%;
+  width: 65%;
   margin-top: 0; }
   .meetups-event-leftside h3, .meetups-event-leftside .we-about-menu a, .we-about-menu .meetups-event-leftside a, .meetups-event-leftside .we-about-menu .clickable-text, .we-about-menu .meetups-event-leftside .clickable-text {
     font-size: 18px;
@@ -265,13 +261,25 @@ h5 {
   margin-top: 6px;
   height: 30px; }
   .profiles-wrapper .profiles-icon {
+    height: 100%;
     max-height: 30px;
     border: 1px solid white;
     box-sizing: border-box; }
   .profiles-wrapper .more-profiles {
+    display: inline-block;
+    margin: 0;
+    margin-top: -1em;
     width: 30px;
     height: 30px;
     text-align: center;
     background-color: #DDE8F4; }
+
+.meetups-event-info {
+  color: #918E8E;
+  padding-top: 18px;
+  font-size: 18px; }
+  .meetups-event-info .odd-text-out {
+    color: #6fbbb7;
+    font-size: 13px; }
 
 /*# sourceMappingURL=main.css.map */
