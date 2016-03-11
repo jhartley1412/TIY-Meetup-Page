@@ -87,11 +87,6 @@ h5{
 	box-sizing: border-box;
 }
 
-.rawr{
-	background-color:blue;
-	height: 400px;
-	width: 100%;
-}
 
 .bottom-border{
 	border-bottom: 1px solid #ddd;
@@ -115,12 +110,63 @@ h5{
 }
 
 
-
-.middle-head{
-	width: 100%;
+.middle-menu{
 	background-color: green;
 }
 
+.middle-head{
+	@extend %basic-padding-border;
+	padding-bottom: 1rem;
+	
+	h1{
+		margin-bottom: 0;
+	}
+}	
+
+.suggest-meetup{
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 0;
+	border: 1px solid white;
+	@extend %basic-padding-border;
+	background-color: #EDEDED;
+	
+	h2{
+		font-weight: 300;
+		margin: 0;
+		padding: 6px 0 6px 0;
+	}
+}
+
+.suggest-meetup-tabs{
+	padding-top: 6px;
+	@extend .suggest-meetup;
+	
+	.tabs{
+		width: 90px;
+		text-align: center;
+		display: inline-block;
+		border: 1px solid #ddd;
+		border-bottom: 0;
+		background-color: #F7F7F7;
+	}
+
+	.tabs-current{
+		background-color: white;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
+
+	p{
+		font-size: 14px;
+		font-weight: 300;
+		color: $brand-color;
+		margin: 0;
+		padding: 6px 0 6px 0;
+	}
+}
 
 
 

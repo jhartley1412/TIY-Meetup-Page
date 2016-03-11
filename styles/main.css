@@ -48,7 +48,7 @@
 
   .col-md-12 {
     width: 100%; } }
-.left-menu-logo, .left-menu-first-info {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs {
   width: 100%;
   padding: 18px 18px 0 18px;
   box-sizing: border-box; }
@@ -61,7 +61,7 @@ a, .clickable-text {
     text-decoration: underline;
     color: #6fbbb7; }
 
-.left-menu-logo, .left-menu-first-info {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs {
   width: 100%;
   padding: 18px 18px 0 18px;
   box-sizing: border-box; }
@@ -110,13 +110,16 @@ a, .clickable-text {
 .organizers-menu {
   color: #6fbbb7; }
   .organizers-menu h2 {
-    font-size: 1rem; }
+    font-size: 18px;
+    margin-top: 0; }
   .organizers-menu h3, .organizers-menu .we-about-menu a, .we-about-menu .organizers-menu a, .organizers-menu .we-about-menu .clickable-text, .we-about-menu .organizers-menu .clickable-text {
     margin: 0;
     color: #6fbbb7; }
 
 .we-about-menu p {
-  color: black; }
+  color: black;
+  margin-top: 0;
+  font-size: 18px; }
 .we-about-menu a, .we-about-menu .clickable-text {
   color: #6fbbb7; }
 
@@ -183,11 +186,6 @@ h5 {
   float: left;
   box-sizing: border-box; }
 
-.rawr {
-  background-color: blue;
-  height: 400px;
-  width: 100%; }
-
 .bottom-border {
   border-bottom: 1px solid #ddd; }
 
@@ -203,8 +201,43 @@ h5 {
 .clickable-text {
   color: #6fbbb7; }
 
-.middle-head {
-  width: 100%;
+.middle-menu {
   background-color: green; }
+
+.middle-head {
+  padding-bottom: 1rem; }
+  .middle-head h1 {
+    margin-bottom: 0; }
+
+.suggest-meetup, .suggest-meetup-tabs {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 0;
+  border: 1px solid white;
+  background-color: #EDEDED; }
+  .suggest-meetup h2, .suggest-meetup-tabs h2 {
+    font-weight: 300;
+    margin: 0;
+    padding: 6px 0 6px 0; }
+
+.suggest-meetup-tabs {
+  padding-top: 6px; }
+  .suggest-meetup-tabs .tabs {
+    width: 90px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    background-color: #F7F7F7; }
+  .suggest-meetup-tabs .tabs-current {
+    background-color: white; }
+  .suggest-meetup-tabs a:hover, .suggest-meetup-tabs .clickable-text:hover {
+    text-decoration: none; }
+  .suggest-meetup-tabs p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6fbbb7;
+    margin: 0;
+    padding: 6px 0 6px 0; }
 
 /*# sourceMappingURL=main.css.map */
