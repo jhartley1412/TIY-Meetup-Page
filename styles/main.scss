@@ -17,6 +17,7 @@ body{
 }
 
 a{
+	color: $brand-color;
 	cursor: pointer;
 	text-decoration: none;
 
@@ -69,6 +70,11 @@ h4{
 	letter-spacing: -0.5px;
 }
 
+h5{
+	color: $brand-color;
+	text-transform: uppercase;
+}
+
 // specifically h3 within left-menu "Founded March 19..."
 .odd-text-out{
 	color: $brand-grey;
@@ -111,16 +117,25 @@ h4{
 
 
 
-.meetup-event{
-	
-	.meetup-leftside{
-		float: left;
-		border-right: 1px solid #ddd;
-		width: 71.42855%;
-	}
-	
+
+
+
+
+.middle-menu{
+	overflow: hidden;
+}
+
+.meetup-leftside{
+	float: left;
+	border-right: 1px solid #ddd;
+	width: 71.42855%;
+
 	h3{
 		color: $brand-grey;
+
+		&:last-child{
+			padding-bottom: 1em;
+		}
 	}
 
 	h4{
@@ -131,13 +146,30 @@ h4{
 		@extend h4;
 		color: $brand-grey;
 	}
+
+	.profile-line{
+		height: 30px;
+		width: 300px;
+		background-color: $brand-color;
+		clear: both;
+	}
 }
 
-.profile-line{
-	height: 30px;
-	width: 300px;
-	background-color: $brand-color;
-	clear: both;
+.meetup-rightside{
+	float: right;
+	
+	h4, h3{
+		color: $brand-grey;
+	}
+
+	.num-rsvp{
+		color: $brand-grey;
+		padding-right: 0.3em;
+	}
+
+	.rsvp-type{
+		color: $brand-color;
+	}
 }
 
 

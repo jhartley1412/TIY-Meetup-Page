@@ -85,6 +85,7 @@ body {
   margin: 0 auto; }
 
 a, .clickable-text {
+  color: #6fbbb7;
   cursor: pointer;
   text-decoration: none; }
   a:hover, .clickable-text:hover {
@@ -116,12 +117,16 @@ h3, .we-about-menu a, .we-about-menu .clickable-text {
   margin-top: 0;
   margin-bottom: 18px; }
 
-h4, .meetup-event p {
+h4, .meetup-leftside p {
   font-size: 16px;
   font-size: 1rem;
   padding-bottom: 0;
   line-height: 1.4;
   letter-spacing: -0.5px; }
+
+h5 {
+  color: #6fbbb7;
+  text-transform: uppercase; }
 
 .odd-text-out {
   color: #918E8E; }
@@ -152,21 +157,35 @@ h4, .meetup-event p {
 .clickable-text {
   color: #6fbbb7; }
 
-.meetup-event .meetup-leftside {
+.middle-menu {
+  overflow: hidden; }
+
+.meetup-leftside {
   float: left;
   border-right: 1px solid #ddd;
   width: 71.42855%; }
-.meetup-event h3, .meetup-event .we-about-menu a, .we-about-menu .meetup-event a, .meetup-event .we-about-menu .clickable-text, .we-about-menu .meetup-event .clickable-text {
-  color: #918E8E; }
-.meetup-event h4, .meetup-event p {
-  color: #6fbbb7; }
-.meetup-event p {
-  color: #918E8E; }
+  .meetup-leftside h3, .meetup-leftside .we-about-menu a, .we-about-menu .meetup-leftside a, .meetup-leftside .we-about-menu .clickable-text, .we-about-menu .meetup-leftside .clickable-text {
+    color: #918E8E; }
+    .meetup-leftside h3:last-child, .meetup-leftside .we-about-menu a:last-child, .we-about-menu .meetup-leftside a:last-child, .meetup-leftside .we-about-menu .clickable-text:last-child, .we-about-menu .meetup-leftside .clickable-text:last-child {
+      padding-bottom: 1em; }
+  .meetup-leftside h4, .meetup-leftside p {
+    color: #6fbbb7; }
+  .meetup-leftside p {
+    color: #918E8E; }
+  .meetup-leftside .profile-line {
+    height: 30px;
+    width: 300px;
+    background-color: #6fbbb7;
+    clear: both; }
 
-.profile-line {
-  height: 30px;
-  width: 300px;
-  background-color: #6fbbb7;
-  clear: both; }
+.meetup-rightside {
+  float: right; }
+  .meetup-rightside h4, .meetup-rightside .meetup-leftside p, .meetup-leftside .meetup-rightside p, .meetup-rightside h3, .meetup-rightside .we-about-menu a, .we-about-menu .meetup-rightside a, .meetup-rightside .we-about-menu .clickable-text, .we-about-menu .meetup-rightside .clickable-text {
+    color: #918E8E; }
+  .meetup-rightside .num-rsvp {
+    color: #918E8E;
+    padding-right: 0.3em; }
+  .meetup-rightside .rsvp-type {
+    color: #6fbbb7; }
 
 /*# sourceMappingURL=main.css.map */
