@@ -363,9 +363,15 @@ h5 {
     color: #918E8E;
     padding-bottom: 6px; }
   .whats-new-feed p {
+    width: 95%;
     font-size: 15px;
     color: #918E8E; }
   .whats-new-feed .odd-text-out {
     color: #6fbbb7; }
+
+.whats-new-feed-img {
+  float: right;
+  width: 30px;
+  height: 30px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -172,6 +172,7 @@ h5{
 	}
 	
 	p{
+		width: 95%;
 		font-size: 15px;
 		color: $brand-grey;
 	}
@@ -179,6 +180,12 @@ h5{
 	.odd-text-out{
 		color: $brand-color;
 	}
+}
+
+.whats-new-feed-img{
+	float: right;
+	width: 30px;
+	height: 30px;
 }
 
 
