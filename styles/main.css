@@ -48,7 +48,7 @@
 
   .col-md-12 {
     width: 100%; } }
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
   box-sizing: border-box; }
@@ -61,7 +61,7 @@ a, .clickable-text {
     text-decoration: underline;
     color: #6fbbb7; }
 
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
   box-sizing: border-box; }
@@ -121,11 +121,12 @@ a, .clickable-text {
   .we-about-menu p {
     color: black;
     margin-top: 0;
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: 600; }
   .we-about-menu a, .we-about-menu .clickable-text {
     color: #6fbbb7; }
 
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
   box-sizing: border-box; }
@@ -324,5 +325,33 @@ h5 {
 
 .clickable-text {
   color: #6fbbb7; }
+
+.right-menu {
+  float: right;
+  margin-right: 0; }
+
+.whats-new p {
+  color: black;
+  margin-top: 0;
+  font-size: 19px;
+  font-weight: 600; }
+
+.whats-new-top-img {
+  margin: 0 auto;
+  padding-bottom: 0.5rem; }
+
+.whats-new-feed {
+  border-top: 1px solid #ddd;
+  padding-top: 6px; }
+  .whats-new-feed h5 {
+    font-size: 12px;
+    margin: 0;
+    color: #918E8E;
+    padding-bottom: 6px; }
+  .whats-new-feed p {
+    font-size: 15px;
+    color: #918E8E; }
+  .whats-new-feed .odd-text-out {
+    color: #6fbbb7; }
 
 /*# sourceMappingURL=main.css.map */
