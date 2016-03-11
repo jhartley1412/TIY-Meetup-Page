@@ -136,7 +136,6 @@ h5 {
   background-color: white;
   float: left;
   padding: 18px 18px 0;
-  margin-bottom: 2em;
   box-sizing: border-box; }
 
 .bottom-border {
@@ -158,12 +157,14 @@ h5 {
   color: #6fbbb7; }
 
 .middle-menu {
-  overflow: hidden; }
+  overflow: hidden;
+  border-bottom: 0; }
 
 .meetup-leftside {
   float: left;
   border-right: 1px solid #ddd;
-  width: 71.42855%; }
+  width: 71.42855%;
+  padding-right: 0.5em; }
   .meetup-leftside h3, .meetup-leftside .we-about-menu a, .we-about-menu .meetup-leftside a, .meetup-leftside .we-about-menu .clickable-text, .we-about-menu .meetup-leftside .clickable-text {
     color: #918E8E; }
     .meetup-leftside h3:last-child, .meetup-leftside .we-about-menu a:last-child, .we-about-menu .meetup-leftside a:last-child, .meetup-leftside .we-about-menu .clickable-text:last-child, .we-about-menu .meetup-leftside .clickable-text:last-child {
