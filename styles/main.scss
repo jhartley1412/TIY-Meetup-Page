@@ -101,7 +101,7 @@ h5{
 	padding: 8px;
 
 	color: $brand-color;
-	font-size: 13px;
+	font-size: 15px;
 }
 
 .clickable-text{
@@ -136,6 +136,11 @@ h5{
 		margin: 0;
 		padding: 6px 0 6px 0;
 	}
+
+	&:hover{
+		text-decoration: none;
+		background-color: lighten(#EDEDED, 3%);
+	}
 }
 
 .suggest-meetup-tabs{
@@ -165,6 +170,54 @@ h5{
 		color: $brand-color;
 		margin: 0;
 		padding: 6px 0 6px 0;
+	}
+}
+
+
+.meetups-event{
+	background-color: pink;
+	@extend %basic-padding-border;
+
+	h2{
+		margin-top: 0;
+	}
+}
+
+.meetups-event-leftside{
+	width: 73%;
+	margin-top: 0;
+	
+	h3{
+		font-size: 18px;
+		margin: 0;
+	}
+	
+	p{
+		font-size: 15px;
+		color: $brand-grey;
+		margin: 0;
+	}
+
+	.odd-text-out{
+		color: $brand-color;
+	}
+}
+
+.profiles-wrapper{
+	margin-top: 6px;
+	height: 30px;
+
+	.profiles-icon{
+		max-height: 30px;
+		border: 1px solid white;
+		box-sizing: border-box;
+	}
+
+	.more-profiles{
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		background-color: #DDE8F4;
 	}
 }
 

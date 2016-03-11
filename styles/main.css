@@ -48,7 +48,7 @@
 
   .col-md-12 {
     width: 100%; } }
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event {
   width: 100%;
   padding: 18px 18px 0 18px;
   box-sizing: border-box; }
@@ -61,7 +61,7 @@ a, .clickable-text {
     text-decoration: underline;
     color: #6fbbb7; }
 
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event {
   width: 100%;
   padding: 18px 18px 0 18px;
   box-sizing: border-box; }
@@ -196,7 +196,7 @@ h5 {
   margin: 12px 0;
   padding: 8px;
   color: #6fbbb7;
-  font-size: 13px; }
+  font-size: 15px; }
 
 .clickable-text {
   color: #6fbbb7; }
@@ -219,6 +219,9 @@ h5 {
     font-weight: 300;
     margin: 0;
     padding: 6px 0 6px 0; }
+  .suggest-meetup:hover, .suggest-meetup-tabs:hover {
+    text-decoration: none;
+    background-color: whitesmoke; }
 
 .suggest-meetup-tabs {
   padding-top: 6px; }
@@ -239,5 +242,36 @@ h5 {
     color: #6fbbb7;
     margin: 0;
     padding: 6px 0 6px 0; }
+
+.meetups-event {
+  background-color: pink; }
+  .meetups-event h2 {
+    margin-top: 0; }
+
+.meetups-event-leftside {
+  width: 73%;
+  margin-top: 0; }
+  .meetups-event-leftside h3, .meetups-event-leftside .we-about-menu a, .we-about-menu .meetups-event-leftside a, .meetups-event-leftside .we-about-menu .clickable-text, .we-about-menu .meetups-event-leftside .clickable-text {
+    font-size: 18px;
+    margin: 0; }
+  .meetups-event-leftside p {
+    font-size: 15px;
+    color: #918E8E;
+    margin: 0; }
+  .meetups-event-leftside .odd-text-out {
+    color: #6fbbb7; }
+
+.profiles-wrapper {
+  margin-top: 6px;
+  height: 30px; }
+  .profiles-wrapper .profiles-icon {
+    max-height: 30px;
+    border: 1px solid white;
+    box-sizing: border-box; }
+  .profiles-wrapper .more-profiles {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #DDE8F4; }
 
 /*# sourceMappingURL=main.css.map */
