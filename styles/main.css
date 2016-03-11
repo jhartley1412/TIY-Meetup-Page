@@ -125,84 +125,18 @@ a, .clickable-text {
   .we-about-menu a, .we-about-menu .clickable-text {
     color: #6fbbb7; }
 
-body {
-  background-color: #f4f4f4;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 16px; }
-
-.container {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event {
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  overflow: hidden; }
-
-header {
-  width: 100%;
-  height: 200px;
-  background-color: white;
-  margin-bottom: 18px;
-  border-radius: 3px; }
-  header nav {
-    width: 100%; }
-    header nav a, header nav .clickable-text {
-      color: blue; }
-
-h1 {
-  font-size: 28px;
-  font-size: 1.75rem;
-  margin-top: 0;
-  font-weight: 600; }
-
-h2 {
-  font-size: 22px;
-  font-size: 1.37rem;
-  padding-bottom: 6px;
-  line-height: 1.2;
-  letter-spacing: -0.25px;
-  color: #6fbbb7; }
-
-h3, .we-about-menu a, .we-about-menu .clickable-text {
-  font-size: 15px;
-  line-height: 1.6;
-  margin-top: 0;
-  margin-bottom: 18px;
-  font-weight: 300; }
-
-h4 {
-  font-size: 16px;
-  font-size: 1rem;
-  padding-bottom: 0;
-  line-height: 1.4;
-  letter-spacing: -0.5px; }
-
-h5 {
-  color: #6fbbb7;
-  text-transform: uppercase; }
-
-.odd-text-out {
-  color: #918E8E; }
-
-.side-article, .middle-menu {
-  border: 1px solid #ddd;
-  background-color: white;
-  float: left;
+  padding: 18px 18px 0 18px;
   box-sizing: border-box; }
 
-.bottom-border {
-  border-bottom: 1px solid #ddd; }
-
-.button-1 {
-  background-color: #EDEDED;
-  border-radius: 3px;
-  text-align: center;
-  margin: 12px 0;
-  padding: 8px;
+a, .clickable-text {
   color: #6fbbb7;
-  font-size: 15px; }
-
-.clickable-text {
-  color: #6fbbb7; }
+  cursor: pointer;
+  text-decoration: none; }
+  a:hover, .clickable-text:hover {
+    text-decoration: underline;
+    color: #6fbbb7; }
 
 .middle-head {
   padding-bottom: 1rem; }
@@ -311,5 +245,84 @@ h5 {
     padding-left: 0.3rem; }
   .meetups-event-rightside .button-1 {
     text-align: left; }
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 18px;
+  border-radius: 3px; }
+  header nav {
+    width: 100%; }
+    header nav a, header nav .clickable-text {
+      color: blue; }
+
+h1 {
+  font-size: 28px;
+  font-size: 1.75rem;
+  margin-top: 0;
+  font-weight: 600; }
+
+h2 {
+  font-size: 22px;
+  font-size: 1.37rem;
+  padding-bottom: 6px;
+  line-height: 1.2;
+  letter-spacing: -0.25px;
+  color: #6fbbb7; }
+
+h3, .we-about-menu a, .we-about-menu .clickable-text {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-weight: 300; }
+
+h4 {
+  font-size: 16px;
+  font-size: 1rem;
+  padding-bottom: 0;
+  line-height: 1.4;
+  letter-spacing: -0.5px; }
+
+h5 {
+  color: #6fbbb7;
+  text-transform: uppercase; }
+
+.odd-text-out {
+  color: #918E8E; }
+
+.side-article, .middle-menu {
+  border: 1px solid #ddd;
+  background-color: white;
+  float: left;
+  box-sizing: border-box; }
+
+.bottom-border {
+  border-bottom: 1px solid #ddd; }
+
+.button-1 {
+  background-color: #EDEDED;
+  border-radius: 3px;
+  text-align: center;
+  margin: 12px 0;
+  padding: 8px;
+  color: #6fbbb7;
+  font-size: 15px; }
+
+.clickable-text {
+  color: #6fbbb7; }
 
 /*# sourceMappingURL=main.css.map */
