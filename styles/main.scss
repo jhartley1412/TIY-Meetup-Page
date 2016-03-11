@@ -107,6 +107,22 @@ h5{
 	font-size: 15px;
 }
 
+.button-2{
+	color: black;
+	background-color: #EDEDED;
+	border-radius: 3px;
+	text-align: center;
+	padding: 0.5rem 1rem;
+	font-size: 18px;
+	margin-top: 1rem;
+	box-shadow: 0 4px 1px #888888;
+
+	&:hover{
+		cursor: pointer;
+		background-color: lighten(#EDEDED, 3%);
+	}
+}
+
 .clickable-text{
 	color: $brand-color;
 	@extend a;
@@ -127,6 +143,8 @@ h5{
 .whats-new{
 	@extend %basic-padding-border;
 
+	padding-bottom: 1rem;
+
 
 	p{
 		color: black;
@@ -143,8 +161,6 @@ h5{
 
 .whats-new-feed{
 	@extend %basic-padding-border;
-
-	border-top: 1px solid #ddd;
 
 	padding-top: 6px;
 
@@ -164,6 +180,8 @@ h5{
 		color: $brand-color;
 	}
 }
+
+
 
 
 

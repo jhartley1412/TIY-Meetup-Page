@@ -323,6 +323,19 @@ h5 {
   color: #6fbbb7;
   font-size: 15px; }
 
+.button-2 {
+  color: black;
+  background-color: #EDEDED;
+  border-radius: 3px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 1px #888888; }
+  .button-2:hover {
+    cursor: pointer;
+    background-color: whitesmoke; }
+
 .clickable-text {
   color: #6fbbb7; }
 
@@ -330,18 +343,19 @@ h5 {
   float: right;
   margin-right: 0; }
 
-.whats-new p {
-  color: black;
-  margin-top: 0;
-  font-size: 19px;
-  font-weight: 600; }
+.whats-new {
+  padding-bottom: 1rem; }
+  .whats-new p {
+    color: black;
+    margin-top: 0;
+    font-size: 19px;
+    font-weight: 600; }
 
 .whats-new-top-img {
   margin: 0 auto;
   padding-bottom: 0.5rem; }
 
 .whats-new-feed {
-  border-top: 1px solid #ddd;
   padding-top: 6px; }
   .whats-new-feed h5 {
     font-size: 12px;
