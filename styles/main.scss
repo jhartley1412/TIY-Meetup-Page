@@ -8,6 +8,9 @@
 
 body{
 	background-color: #f4f4f4;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 }
 
 .container{
@@ -16,16 +19,7 @@ body{
 	margin: 0 auto;
 }
 
-a{
-	color: $brand-color;
-	cursor: pointer;
-	text-decoration: none;
 
-	&:hover{
-		text-decoration: underline;
-		color: $brand-color;
-	}
-}
 
 header{
 	width: 100%;
@@ -44,11 +38,16 @@ header{
 	}
 }
 
-
+h1{
+	font-size: 28px;
+	font-size: 1.75rem;
+	margin-top: 0;
+	font-weight: 600;
+}
 
 h2{
-	font-size: 20px;
-	font-size: 1.25rem;
+	font-size: 22px;
+	font-size: 1.37rem;
 	padding-bottom: 6px;
 	line-height: 1.2;
 	letter-spacing: -0.25px;
@@ -56,10 +55,11 @@ h2{
 }
 
 h3{
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.6;
 	margin-top: 0;
 	margin-bottom: 18px;
+	font-weight: 300;
 }
 
 h4{
@@ -84,19 +84,19 @@ h5{
 	border: 1px solid #ddd;
 	background-color: white;
 	float: left;
-	padding: 18px 18px 0;
 	box-sizing: border-box;
+}
+
+.rawr{
+	background-color:blue;
+	height: 400px;
+	width: 100%;
 }
 
 .bottom-border{
 	border-bottom: 1px solid #ddd;
 }
 
-.left-menu{
-	.logo{
-		width: 80%;
-	}
-}
 
 .button-1{
 	background-color: #EDEDED;
@@ -116,62 +116,16 @@ h5{
 
 
 
-
-
-
-
-.middle-menu{
-	overflow: hidden;
-	border-bottom: 0;
+.middle-head{
+	width: 100%;
+	background-color: green;
 }
 
-.meetup-leftside{
-	float: left;
-	border-right: 1px solid #ddd;
-	width: 71.42855%;
-	padding-right: 0.5em;
 
-	h3{
-		color: $brand-grey;
 
-		&:last-child{
-			padding-bottom: 1em;
-		}
-	}
 
-	h4{
-		color: $brand-color;
-	}
 
-	p{
-		@extend h4;
-		color: $brand-grey;
-	}
 
-	.profile-line{
-		height: 30px;
-		width: 300px;
-		background-color: $brand-color;
-		clear: both;
-	}
-}
-
-.meetup-rightside{
-	float: right;
-	
-	h4, h3{
-		color: $brand-grey;
-	}
-
-	.num-rsvp{
-		color: $brand-grey;
-		padding-right: 0.3em;
-	}
-
-	.rsvp-type{
-		color: $brand-color;
-	}
-}
 
 
 

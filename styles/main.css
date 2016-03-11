@@ -48,16 +48,51 @@
 
   .col-md-12 {
     width: 100%; } }
+.left-menu-logo, .left-menu-first-info {
+  width: 100%;
+  padding: 18px 18px 0 18px;
+  box-sizing: border-box; }
+
+a, .clickable-text {
+  color: #6fbbb7;
+  cursor: pointer;
+  text-decoration: none; }
+  a:hover, .clickable-text:hover {
+    text-decoration: underline;
+    color: #6fbbb7; }
+
+.left-menu-logo, .left-menu-first-info {
+  width: 100%;
+  padding: 18px 18px 0 18px;
+  box-sizing: border-box; }
+
+a, .clickable-text {
+  color: #6fbbb7;
+  cursor: pointer;
+  text-decoration: none; }
+  a:hover, .clickable-text:hover {
+    text-decoration: underline;
+    color: #6fbbb7; }
+
+.left-menu-logo {
+  text-align: center; }
+  .left-menu-logo .logo {
+    width: 95%; }
+
+.left-menu-first-info h2 {
+  margin-top: 0; }
+.left-menu-first-info h3, .left-menu-first-info .we-about-menu a, .we-about-menu .left-menu-first-info a, .left-menu-first-info .we-about-menu .clickable-text, .we-about-menu .left-menu-first-info .clickable-text {
+  margin-top: -1em; }
+
 .types-of-classes {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  line-height: 1px;
   font-size: 13px;
   color: #6fbbb7;
-  padding: 10px 0; }
+  background-color: pink; }
   .types-of-classes .classes {
     float: left;
-    width: 71.42855%; }
+    width: 71%; }
   .types-of-classes .classes-number {
     float: right;
     text-align: right;
@@ -77,20 +112,15 @@
   color: #6fbbb7; }
 
 body {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
 
 .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto; }
-
-a, .clickable-text {
-  color: #6fbbb7;
-  cursor: pointer;
-  text-decoration: none; }
-  a:hover, .clickable-text:hover {
-    text-decoration: underline;
-    color: #6fbbb7; }
 
 header {
   width: 100%;
@@ -103,21 +133,28 @@ header {
     header nav a, header nav .clickable-text {
       color: blue; }
 
+h1 {
+  font-size: 28px;
+  font-size: 1.75rem;
+  margin-top: 0;
+  font-weight: 600; }
+
 h2 {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 22px;
+  font-size: 1.37rem;
   padding-bottom: 6px;
   line-height: 1.2;
   letter-spacing: -0.25px;
   color: #6fbbb7; }
 
 h3, .we-about-menu a, .we-about-menu .clickable-text {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.6;
   margin-top: 0;
-  margin-bottom: 18px; }
+  margin-bottom: 18px;
+  font-weight: 300; }
 
-h4, .meetup-leftside p {
+h4 {
   font-size: 16px;
   font-size: 1rem;
   padding-bottom: 0;
@@ -135,14 +172,15 @@ h5 {
   border: 1px solid #ddd;
   background-color: white;
   float: left;
-  padding: 18px 18px 0;
   box-sizing: border-box; }
+
+.rawr {
+  background-color: blue;
+  height: 400px;
+  width: 100%; }
 
 .bottom-border {
   border-bottom: 1px solid #ddd; }
-
-.left-menu .logo {
-  width: 80%; }
 
 .button-1 {
   background-color: #EDEDED;
@@ -156,37 +194,8 @@ h5 {
 .clickable-text {
   color: #6fbbb7; }
 
-.middle-menu {
-  overflow: hidden;
-  border-bottom: 0; }
-
-.meetup-leftside {
-  float: left;
-  border-right: 1px solid #ddd;
-  width: 71.42855%;
-  padding-right: 0.5em; }
-  .meetup-leftside h3, .meetup-leftside .we-about-menu a, .we-about-menu .meetup-leftside a, .meetup-leftside .we-about-menu .clickable-text, .we-about-menu .meetup-leftside .clickable-text {
-    color: #918E8E; }
-    .meetup-leftside h3:last-child, .meetup-leftside .we-about-menu a:last-child, .we-about-menu .meetup-leftside a:last-child, .meetup-leftside .we-about-menu .clickable-text:last-child, .we-about-menu .meetup-leftside .clickable-text:last-child {
-      padding-bottom: 1em; }
-  .meetup-leftside h4, .meetup-leftside p {
-    color: #6fbbb7; }
-  .meetup-leftside p {
-    color: #918E8E; }
-  .meetup-leftside .profile-line {
-    height: 30px;
-    width: 300px;
-    background-color: #6fbbb7;
-    clear: both; }
-
-.meetup-rightside {
-  float: right; }
-  .meetup-rightside h4, .meetup-rightside .meetup-leftside p, .meetup-leftside .meetup-rightside p, .meetup-rightside h3, .meetup-rightside .we-about-menu a, .we-about-menu .meetup-rightside a, .meetup-rightside .we-about-menu .clickable-text, .we-about-menu .meetup-rightside .clickable-text {
-    color: #918E8E; }
-  .meetup-rightside .num-rsvp {
-    color: #918E8E;
-    padding-right: 0.3em; }
-  .meetup-rightside .rsvp-type {
-    color: #6fbbb7; }
+.middle-head {
+  width: 100%;
+  background-color: green; }
 
 /*# sourceMappingURL=main.css.map */

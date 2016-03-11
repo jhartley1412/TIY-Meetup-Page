@@ -1,18 +1,39 @@
 
 @import 'variables';
 
+.left-menu-logo{
+	text-align: center;
+	
+	@extend %basic-padding-border;
+
+	.logo{
+		width: 95%;
+	}
+}
+
+.left-menu-first-info{
+	h2{
+		margin-top: 0;
+	}
+
+	h3{
+		margin-top: -1em;
+	}
+
+	@extend %basic-padding-border;
+}
+
 .types-of-classes{
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 
-	line-height: 1px;
 	font-size: 13px;
 	color: $brand-color;
-	padding: 10px 0;
+	background-color: pink;
 
 	.classes{
 		float: left;
-		width: 71.42855%;
+		width: 71%;
 	}
 
 	.classes-number{

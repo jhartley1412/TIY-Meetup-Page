@@ -2,3 +2,20 @@
 $brand-color: #6fbbb7;
 
 $brand-grey: #918E8E;
+
+%basic-padding-border{
+	width: 100%;
+	padding: 18px 18px 0 18px;
+	box-sizing: border-box;
+}
+
+a{
+	color: $brand-color;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover{
+		text-decoration: underline;
+		color: $brand-color;
+	}
+}
