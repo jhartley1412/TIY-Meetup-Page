@@ -22,6 +22,7 @@ body{
 	max-width: 960px;
 	margin: 0 auto;
 	overflow: hidden;
+	padding-bottom: 2rem;
 }
 
 
@@ -139,12 +140,88 @@ h5{
 	&:hover{
 		cursor: pointer;
 		background-color: lighten(#EDEDED, 3%);
+		text-decoration: none;
 	}
+}
+
+.button-3{
+	@extend .button-2;
+
+	width: 95%;
+	margin: 0.3rem auto;
+	box-sizing: border-box;
+	padding: 0.3rem;
 }
 
 .clickable-text{
 	color: $brand-color;
 	@extend a;
+}
+
+footer{
+	background-color: #3B4049;
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 2.5rem;
+}
+
+.foot-info{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+
+	h3{
+		float: left;
+		font-size: 20px;
+		font-weight: 400;
+		color: white;
+		padding-top: 1rem;
+	}
+
+	p{
+		float: right;
+		color: white;
+		font-size: 20px;
+		font-weight: 400;
+	}
+}
+
+.foot-nav{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+
+	p{
+		float: left;
+		color: white;
+		font-size: 20px;
+		font-weight: 400;
+		padding-right: 1rem;
+	}
+}
+
+.foot-bottom-text{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+
+	p{
+		float: left;
+		margin: 0;
+		color: white;
+		font-size: 20px;
+		font-weight: 400;
+		padding-right: 1rem;
+	}
+
+	.lsc{
+	font-size: 1rem;
+	color: $brand-grey;
+	padding-top: 0.3rem;
+	}
 }
 
 

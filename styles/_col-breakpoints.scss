@@ -23,9 +23,11 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col; //remem
   
 }
 
-
-@media (min-width: 768px){
+@media (min-width: 500px){
   
+  .centered-breakpoint{
+  }
+
   .col-md-1{
     width: 6.5%;
     margin-right: $gut-width;
@@ -82,6 +84,75 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col; //remem
   }
 
   .col-md-12{
+    width: 100%;
+  }  
+}
+
+
+
+
+@media (min-width: 768px){
+
+  .centered-breakpoint{
+    margin: auto;
+  }
+  
+  .col-lg-1{
+    width: 6.5%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-2{
+    width: 15%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-3{
+    width: 23.5%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-4{
+    width: 32%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-5{
+    width: 40.5%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-6{
+    width: 49%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-7{
+    width: 57.5%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-8{
+    width: 66%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-9{
+    width: 74.5%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-10{
+    width: 83%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-11{
+    width: 91.5%;
+    margin-right: $gut-width;
+  }
+
+  .col-lg-12{
     width: 100%;
   }
   

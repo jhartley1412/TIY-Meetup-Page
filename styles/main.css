@@ -1,7 +1,7 @@
 @media (min-width: 0) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
     width: 100%; } }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .col-md-1 {
     width: 6.5%;
     margin-right: 2%; }
@@ -47,6 +47,56 @@
     margin-right: 2%; }
 
   .col-md-12 {
+    width: 100%; } }
+@media (min-width: 768px) {
+  .centered-breakpoint {
+    margin: auto; }
+
+  .col-lg-1 {
+    width: 6.5%;
+    margin-right: 2%; }
+
+  .col-lg-2 {
+    width: 15%;
+    margin-right: 2%; }
+
+  .col-lg-3 {
+    width: 23.5%;
+    margin-right: 2%; }
+
+  .col-lg-4 {
+    width: 32%;
+    margin-right: 2%; }
+
+  .col-lg-5 {
+    width: 40.5%;
+    margin-right: 2%; }
+
+  .col-lg-6 {
+    width: 49%;
+    margin-right: 2%; }
+
+  .col-lg-7 {
+    width: 57.5%;
+    margin-right: 2%; }
+
+  .col-lg-8 {
+    width: 66%;
+    margin-right: 2%; }
+
+  .col-lg-9 {
+    width: 74.5%;
+    margin-right: 2%; }
+
+  .col-lg-10 {
+    width: 83%;
+    margin-right: 2%; }
+
+  .col-lg-11 {
+    width: 91.5%;
+    margin-right: 2%; }
+
+  .col-lg-12 {
     width: 100%; } }
 .left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
@@ -188,6 +238,8 @@ a, .clickable-text {
   .meetups-event h2 {
     margin: 0;
     margin-bottom: 0.5rem; }
+  .meetups-event .button-2, .meetups-event .button-3 {
+    width: 300px; }
 
 .meetups-event-leftside {
   width: 65%;
@@ -251,6 +303,9 @@ a, .clickable-text {
   .meetups-event-rightside .button-1 {
     text-align: left; }
 
+.meetups-event-bottom {
+  padding: 1rem; }
+
 .left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
@@ -309,7 +364,8 @@ body {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 2rem; }
 
 header {
   width: 100%;
@@ -389,7 +445,7 @@ h5 {
   color: #6fbbb7;
   font-size: 15px; }
 
-.button-2 {
+.button-2, .button-3 {
   color: black;
   background-color: #EDEDED;
   border-radius: 3px;
@@ -398,11 +454,70 @@ h5 {
   font-size: 18px;
   margin-top: 1rem;
   box-shadow: 0 4px 1px #888888; }
-  .button-2:hover {
+  .button-2:hover, .button-3:hover {
     cursor: pointer;
-    background-color: whitesmoke; }
+    background-color: whitesmoke;
+    text-decoration: none; }
+
+.button-3 {
+  width: 95%;
+  margin: 0.3rem auto;
+  box-sizing: border-box;
+  padding: 0.3rem; }
 
 .clickable-text {
   color: #6fbbb7; }
+
+footer {
+  background-color: #3B4049;
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 2.5rem; }
+
+.foot-info {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .foot-info h3, .foot-info .we-about-menu a, .we-about-menu .foot-info a, .foot-info .we-about-menu .clickable-text, .we-about-menu .foot-info .clickable-text {
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-top: 1rem; }
+  .foot-info p {
+    float: right;
+    color: white;
+    font-size: 20px;
+    font-weight: 400; }
+
+.foot-nav {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto; }
+  .foot-nav p {
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 1rem; }
+
+.foot-bottom-text {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both; }
+  .foot-bottom-text p {
+    float: left;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 1rem; }
+  .foot-bottom-text .lsc {
+    font-size: 1rem;
+    color: #918E8E;
+    padding-top: 0.3rem; }
 
 /*# sourceMappingURL=main.css.map */
