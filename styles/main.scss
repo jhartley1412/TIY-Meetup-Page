@@ -86,10 +86,13 @@ header{
 		margin: 0.4rem;
 		padding: 0.2rem 0.6rem;
 		color: $brand-grey;
+
+		&:hover{
+			color: white;
+		}
 	}
 
 	&:hover{
-		color: white;
 		background-color: #2C343A;
 		border-radius: 3px;
 		text-decoration: none;

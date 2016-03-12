@@ -425,7 +425,8 @@ a, .clickable-text {
 .whats-new-feed-img {
   float: right;
   width: 30px;
-  height: 30px; }
+  height: 30px;
+  padding: 5px; }
 
 body {
   background-color: #f4f4f4;
@@ -486,8 +487,9 @@ header {
     margin: 0.4rem;
     padding: 0.2rem 0.6rem;
     color: #918E8E; }
+    .profiles .my-profile:hover {
+      color: white; }
   .profiles:hover {
-    color: white;
     background-color: #2C343A;
     border-radius: 3px;
     text-decoration: none; }
