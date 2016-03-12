@@ -98,9 +98,14 @@
 
   .col-lg-12 {
     width: 100%; } }
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
+  box-sizing: border-box; }
+
+.suggest-meetup, .suggest-meetup-tabs {
+  width: 100%;
+  padding: 0 18px;
   box-sizing: border-box; }
 
 a, .clickable-text {
@@ -111,9 +116,22 @@ a, .clickable-text {
     text-decoration: underline;
     color: #6fbbb7; }
 
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
+.fa-plus {
+  color: #918E8E;
+  float: left;
+  padding-top: 0.8rem; }
+
+.fa-plus-circle, .fa-envelope {
+  padding-right: 0.4rem; }
+
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
+  box-sizing: border-box; }
+
+.suggest-meetup, .suggest-meetup-tabs {
+  width: 100%;
+  padding: 0 18px;
   box-sizing: border-box; }
 
 a, .clickable-text {
@@ -123,6 +141,14 @@ a, .clickable-text {
   a:hover, .clickable-text:hover {
     text-decoration: underline;
     color: #6fbbb7; }
+
+.fa-plus {
+  color: #918E8E;
+  float: left;
+  padding-top: 0.8rem; }
+
+.fa-plus-circle, .fa-envelope {
+  padding-right: 0.4rem; }
 
 .left-menu {
   padding-bottom: 1rem; }
@@ -153,6 +179,20 @@ a, .clickable-text {
     text-align: right;
     padding-right: 1em; }
 
+.classes-bottom {
+  padding-top: 2rem; }
+
+.fa-facebook-official {
+  color: #4B5F91;
+  padding-left: 1rem; }
+  .fa-facebook-official:hover {
+    text-decoration: none; }
+
+.fa-twitter-square {
+  color: #6fbbb7; }
+  .fa-twitter-square:hover {
+    text-decoration: none; }
+
 .types-of-classes:hover {
   cursor: pointer; }
   .types-of-classes:hover .classes {
@@ -169,6 +209,9 @@ a, .clickable-text {
     margin: 0;
     color: #6fbbb7; }
 
+.owl {
+  float: right; }
+
 .we-about-menu p {
   color: black;
   margin-top: 0;
@@ -177,9 +220,14 @@ a, .clickable-text {
 .we-about-menu a, .we-about-menu .clickable-text {
   color: #6fbbb7; }
 
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
+  box-sizing: border-box; }
+
+.suggest-meetup, .suggest-meetup-tabs {
+  width: 100%;
+  padding: 0 18px;
   box-sizing: border-box; }
 
 a, .clickable-text {
@@ -190,6 +238,14 @@ a, .clickable-text {
     text-decoration: underline;
     color: #6fbbb7; }
 
+.fa-plus {
+  color: #918E8E;
+  float: left;
+  padding-top: 0.8rem; }
+
+.fa-plus-circle, .fa-envelope {
+  padding-right: 0.4rem; }
+
 .middle-head {
   padding-bottom: 1rem; }
   .middle-head h1 {
@@ -199,13 +255,15 @@ a, .clickable-text {
   width: 90%;
   max-width: 431px;
   margin: 0 auto;
-  padding-top: 0;
   border: 1px solid white;
-  background-color: #EDEDED; }
+  background-color: #EDEDED;
+  overflow: hidden; }
   .suggest-meetup h2, .suggest-meetup-tabs h2 {
     font-weight: 300;
     margin: 0;
-    padding: 6px 0 6px 0; }
+    padding: 6px 0 0.7rem 1rem;
+    float: left;
+    text-decoration: uppercase; }
   .suggest-meetup:hover, .suggest-meetup-tabs:hover {
     text-decoration: none;
     background-color: whitesmoke; }
@@ -306,9 +364,14 @@ a, .clickable-text {
 .meetups-event-bottom {
   padding: 1rem; }
 
-.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .suggest-meetup, .suggest-meetup-tabs, .meetups-event, .whats-new, .whats-new-feed {
+.left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
+  box-sizing: border-box; }
+
+.suggest-meetup, .suggest-meetup-tabs {
+  width: 100%;
+  padding: 0 18px;
   box-sizing: border-box; }
 
 a, .clickable-text {
@@ -318,6 +381,14 @@ a, .clickable-text {
   a:hover, .clickable-text:hover {
     text-decoration: underline;
     color: #6fbbb7; }
+
+.fa-plus {
+  color: #918E8E;
+  float: left;
+  padding-top: 0.8rem; }
+
+.fa-plus-circle, .fa-envelope {
+  padding-right: 0.4rem; }
 
 .right-menu {
   float: right;
@@ -339,12 +410,14 @@ a, .clickable-text {
   padding-top: 6px; }
   .whats-new-feed h5 {
     font-size: 12px;
+    font-weight: 300;
     margin: 0;
     color: #918E8E;
     padding-bottom: 6px; }
   .whats-new-feed p {
     width: 95%;
     font-size: 15px;
+    font-weight: 300;
     color: #918E8E; }
   .whats-new-feed .odd-text-out {
     color: #6fbbb7; }
@@ -372,21 +445,52 @@ header {
   background-color: white;
   margin-top: 1rem;
   margin-bottom: 18px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  overflow: hidden; }
   header nav {
-    width: 100%;
-    max-width: 500px;
-    padding: 0.5rem; }
+    float: left;
+    width: 70%;
+    overflow: hidden; }
     header nav a, header nav .clickable-text {
       font-size: 18px;
-      padding: 0.5rem;
+      float: left;
+      margin: 0.4rem;
+      padding: 0.2rem 0.6rem;
       color: #918E8E; }
-    header nav a:hover, header nav .clickable-text:hover {
+      header nav a:hover, header nav .clickable-text:hover {
+        color: white;
+        background-color: #2C343A;
+        border-radius: 3px;
+        text-decoration: none; }
+    header nav .selected {
       color: white;
       background-color: #2C343A;
-      padding: 0.5rem;
       border-radius: 3px;
       text-decoration: none; }
+
+.profiles {
+  float: right; }
+  .profiles .profiles-img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 0.6rem;
+    margin-right: -10px;
+    padding-left: 10px; }
+  .profiles .my-profile {
+    float: right;
+    margin-left: 0;
+    padding-left: 0.5rem;
+    font-size: 18px;
+    float: left;
+    margin: 0.4rem;
+    padding: 0.2rem 0.6rem;
+    color: #918E8E; }
+  .profiles:hover {
+    color: white;
+    background-color: #2C343A;
+    border-radius: 3px;
+    text-decoration: none; }
 
 .head-background-img {
   height: 150px; }

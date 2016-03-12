@@ -10,6 +10,12 @@ $brand-grey: #918E8E;
 	box-sizing: border-box;
 }
 
+%basic-padding2-border{
+	width: 100%;
+	padding: 0 18px;
+	box-sizing: border-box;
+}
+
 
 
 a{
@@ -21,4 +27,15 @@ a{
 		text-decoration: underline;
 		color: $brand-color;
 	}
+}
+
+
+.fa-plus{
+	color: $brand-grey;
+	float: left;
+	padding-top: 0.8rem;
+}
+
+.fa-plus-circle, .fa-envelope{
+	padding-right: 0.4rem;
 }

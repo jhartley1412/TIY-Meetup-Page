@@ -33,26 +33,66 @@ header{
 	margin-top: 1rem;
 	margin-bottom: 18px;
 	border-radius: 3px;
+	overflow: hidden;
 
 	nav{
-		
-		width: 100%;
-		max-width: 500px;
-		padding: 0.5rem;
+		float: left;
+		width: 70%;
+		overflow: hidden;
 
 		a{
 			font-size: 18px;
-			padding: 0.5rem;
+			float: left;
+			margin: 0.4rem;
+			padding: 0.2rem 0.6rem;
 			color: $brand-grey;
+
+			&:hover{
+				color: white;
+				background-color: #2C343A;
+				border-radius: 3px;
+				text-decoration: none;
+			}
 		}
 
-		a:hover{
+		.selected{
 			color: white;
 			background-color: #2C343A;
-			padding: 0.5rem;
 			border-radius: 3px;
 			text-decoration: none;
 		}
+	}
+}
+
+.profiles{
+	float: right;
+
+	.profiles-img{
+		width: 20px;
+		height: 20px;
+		float: left;
+		margin-top: 0.6rem;
+		margin-right: -10px;
+		padding-left: 10px;
+	}
+
+	.my-profile{
+		float: right;
+		margin-left: 0;
+		padding-left: 0.5rem;
+
+		font-size: 18px;
+		float: left;
+		margin: 0.4rem;
+		padding: 0.2rem 0.6rem;
+		color: $brand-grey;
+	}
+
+	&:hover{
+		color: white;
+		background-color: #2C343A;
+		border-radius: 3px;
+		text-decoration: none;
 	}
 }
 

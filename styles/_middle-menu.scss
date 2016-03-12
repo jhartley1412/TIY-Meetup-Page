@@ -14,15 +14,17 @@
 	width: 90%;
 	max-width: 431px;
 	margin: 0 auto;
-	padding-top: 0;
 	border: 1px solid white;
-	@extend %basic-padding-border;
+	@extend %basic-padding2-border;
 	background-color: #EDEDED;
+	overflow: hidden;
 	
 	h2{
 		font-weight: 300;
 		margin: 0;
-		padding: 6px 0 6px 0;
+		padding: 6px 0 0.7rem 1rem;
+		float: left;
+		text-decoration: uppercase;
 	}
 
 	&:hover{
