@@ -180,7 +180,8 @@ a, .clickable-text {
     padding-right: 1em; }
 
 .classes-bottom {
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
 
 .fa-facebook-official {
   color: #4B5F91;
@@ -189,7 +190,8 @@ a, .clickable-text {
     text-decoration: none; }
 
 .fa-twitter-square {
-  color: #6fbbb7; }
+  color: #6fbbb7;
+  padding-left: 0.3rem; }
   .fa-twitter-square:hover {
     text-decoration: none; }
 

@@ -52,6 +52,7 @@
 
 .classes-bottom{
 	padding-top: 2rem;
+	padding-bottom: 1rem;
 }
 
 .fa-facebook-official{
@@ -65,6 +66,7 @@
 
 .fa-twitter-square{
 	color: $brand-color;
+	padding-left: 0.3rem;
 
 	&:hover{
 		text-decoration: none;
