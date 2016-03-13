@@ -7,11 +7,16 @@
 }
 
 @media (min-width: 0){
-	float: left;
+	.right-menu{
+		float: left;
+	}
 }
 
 @media (min-width: 768px){
-	float: right;
+	.right-menu{
+		float: right;
+		position: static;
+	}
 }
 
 .whats-new{

@@ -20,6 +20,7 @@ body{
 .container{
 	width: 100%;
 	max-width: 960px;
+	min-width: 600px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding-bottom: 2rem;
@@ -209,6 +210,8 @@ footer{
 	padding-bottom: 2.5rem;
 }
 
+
+
 .foot-info{
 	width: 80%;
 	max-width: 960px;
@@ -266,8 +269,6 @@ footer{
 	padding-top: 0.3rem;
 	}
 }
-
-
 
 
 
