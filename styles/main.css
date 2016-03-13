@@ -434,7 +434,8 @@ a, .clickable-text {
   padding-right: 0.4rem; }
 
 .right-menu {
-  margin-right: 0; }
+  margin-right: 0;
+  top: 0; }
 
 @media (min-width: 0) {
   float: left; }
@@ -449,8 +450,10 @@ a, .clickable-text {
     font-weight: 600; }
 
 .whats-new-top-img {
+  width: 100%;
   margin: 0 auto;
-  padding-bottom: 0.5rem; }
+  padding: 1rem 1rem 0.5rem 1rem;
+  box-sizing: border-box; }
 
 .whats-new-feed {
   padding-top: 6px; }
