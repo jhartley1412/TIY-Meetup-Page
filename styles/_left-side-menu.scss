@@ -3,6 +3,8 @@
 
 .left-menu{
 	padding-bottom: 1rem;
+	float: left;
+	box-sizing: border-box;
 }
 
 .left-menu-logo{
@@ -90,6 +92,7 @@
 
 .organizers-menu{
 	color: $brand-color;
+	float: left;
 
 	@extend %basic-padding-border;
 	
@@ -106,6 +109,9 @@
 
 .owl{
 	float: right;
+	width: 80px;
+	height: 80px;
+	padding: 0.2rem;
 }
 
 
