@@ -217,13 +217,15 @@ a, .clickable-text {
   height: 80px;
   padding: 0.2rem; }
 
-.we-about-menu p {
-  color: black;
-  margin-top: 0;
-  font-size: 18px;
-  font-weight: 600; }
-.we-about-menu a, .we-about-menu .clickable-text {
-  color: #6fbbb7; }
+.we-about-menu {
+  float: left; }
+  .we-about-menu p {
+    color: black;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600; }
+  .we-about-menu a, .we-about-menu .clickable-text {
+    color: #6fbbb7; }
 
 .left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
@@ -263,7 +265,7 @@ a, .clickable-text {
     margin-bottom: 0; }
 
 .suggest-meetup, .suggest-meetup-tabs {
-  width: 90%;
+  width: 80%;
   max-width: 431px;
   margin: 0 auto;
   border: 1px solid white;
@@ -324,19 +326,25 @@ a, .clickable-text {
     color: #6fbbb7; }
 
 .profiles-wrapper {
+  width: 80%;
   margin-top: 6px;
-  padding-bottom: 2rem;
   overflow: hidden; }
-  .profiles-wrapper .profiles-icon {
-    height: 100%;
-    border: 1px solid white;
-    box-sizing: border-box; }
-  .profiles-wrapper .more-profiles {
-    display: inline-block;
-    margin: 0;
-    margin-top: -1em;
-    text-align: center;
-    background-color: #DDE8F4; }
+
+.profiles-icon {
+  width: 15%;
+  border: 1px solid white;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: -10px; }
+  .profiles-icon img {
+    width: 100%; }
+
+.more-profiles {
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  background-color: #DDE8F4;
+  padding-bottom: 10px; }
 
 .meetups-event-info {
   color: #918E8E;
@@ -376,20 +384,7 @@ a, .clickable-text {
     width: 100%; }
 
   .meetups-event-rightside {
-    margin-left: 0; }
-
-  .profiles-wrapper {
-    height: 60px;
-    padding-bottom: 4rem; }
-
-  .profiles-icon {
-    margin-bottom: 1rem; }
-
-  .more-profiles {
-    height: 60px;
-    width: 60px;
-    box-sizing: border-box;
-    padding-top: 1.2rem; } }
+    margin-left: 0; } }
 @media (min-width: 768px) {
   .meetups-event-leftside {
     width: 65%; }
@@ -398,12 +393,10 @@ a, .clickable-text {
     margin-left: 1rem; }
 
   .profiles-wrapper {
-    height: 30px; }
+    width: 90%; }
 
-  .more-profiles {
-    height: 30px;
-    width: 30px;
-    padding-top: 0; } }
+  .profiles-icon {
+    width: 12%; } }
 .left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;

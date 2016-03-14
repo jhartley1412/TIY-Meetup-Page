@@ -25,7 +25,7 @@
 }	
 
 .suggest-meetup{
-	width: 90%;
+	width: 80%;
 	max-width: 431px;
 	margin: 0 auto;
 	border: 1px solid white;
@@ -119,23 +119,29 @@
 
 
 .profiles-wrapper{
+	width: 80%;
 	margin-top: 6px;
-	padding-bottom: 2rem;
 	overflow: hidden;
+}
 
-	.profiles-icon{
-		height: 100%;
-		border: 1px solid white;
-		box-sizing: border-box;
-	}
+.profiles-icon{
+	width: 15%;
+	border: 1px solid white;
+	box-sizing: border-box;
+	display: inline-block;
+	padding-top: -10px;
 
-	.more-profiles{
-		display: inline-block;
-		margin: 0;
-		margin-top: -1em;
-		text-align: center;
-		background-color: #DDE8F4;
+	img{
+		width: 100%;
 	}
+}
+
+.more-profiles{
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+	background-color: #DDE8F4;
+	padding-bottom: 10px;
 }
 
 .meetups-event-info{
@@ -199,23 +205,9 @@
 	.meetups-event-rightside{
 		margin-left: 0;
 	}
-
-	.profiles-wrapper{
-		height: 60px;
-		padding-bottom: 4rem;
-	}
-	
-	.profiles-icon{
-		margin-bottom: 1rem;
-	}
-
-	.more-profiles{
-		height: 60px;
-		width: 60px;
-		box-sizing: border-box;
-		padding-top: 1.2rem;
-	}
 }
+
+
 
 @media (min-width: 768px){
 	.meetups-event-leftside{
@@ -227,13 +219,14 @@
 	}
 	
 	.profiles-wrapper{
-		height: 30px;
+		width: 90%;
+	}
+
+	.profiles-icon{
+		width: 12%;
 	}
 
 	.more-profiles{
-		height: 30px;
-		width: 30px;
-		padding-top: 0;
 	}
 }
 
