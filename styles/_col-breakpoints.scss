@@ -13,9 +13,10 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col; //remem
   
 
 
-@media (min-width: 500px){
-  
-  .centered-breakpoint{
+@media (min-width: 0){
+  .container{
+    box-sizing: border-box;
+    padding: 10px;
   }
 
   .col-md-1{

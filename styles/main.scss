@@ -183,7 +183,7 @@ h5{
 
 	&:hover{
 		cursor: pointer;
-		background-color: lighten(#EDEDED, 3%);
+		background-color: darken(#EDEDED, 3%);
 		text-decoration: none;
 	}
 }

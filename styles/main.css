@@ -1,4 +1,8 @@
-@media (min-width: 500px) {
+@media (min-width: 0) {
+  .container {
+    box-sizing: border-box;
+    padding: 10px; }
+
   .col-md-1 {
     width: 6.5%;
     margin-right: 2%; }
@@ -311,6 +315,8 @@ a, .clickable-text {
     margin-bottom: 0.5rem; }
   .meetups-event .button-2, .meetups-event .button-3 {
     width: 300px; }
+    .meetups-event .button-2:hover, .meetups-event .button-3:hover {
+      text-decoration: none; }
 
 .meetups-event-leftside {
   float: left;
@@ -332,6 +338,7 @@ a, .clickable-text {
 
 .profiles-icon {
   width: 15%;
+  min-width: 28.344px;
   float: left;
   border: 1px solid white;
   box-sizing: border-box;
@@ -371,6 +378,8 @@ a, .clickable-text {
     margin: 0; }
   .meetups-event-rightside p {
     color: #918E8E; }
+    .meetups-event-rightside p:hover {
+      text-decoration: none; }
   .meetups-event-rightside .odd-text-out {
     color: #6fbbb7;
     padding-left: 0.3rem; }
@@ -388,8 +397,8 @@ a, .clickable-text {
     margin-left: 0; }
 
   .more-profiles {
-    padding-top: 11px;
-    padding-bottom: 21px;
+    padding-top: 2%;
+    padding-bottom: 5%;
     font-size: 20px; } }
 @media (min-width: 768px) {
   .meetups-event-leftside {
@@ -405,10 +414,10 @@ a, .clickable-text {
     width: 12%; }
 
   .more-profiles {
-    max-width: 25.453px;
+    max-width: 28.344px;
     font-size: 1rem;
     padding-top: 0;
-    padding-bottom: 6px; } }
+    padding-bottom: 8px; } }
 .left-menu-logo, .left-menu-first-info, .organizers-menu, .we-about-menu, .middle-head, .meetups-event, .whats-new, .whats-new-feed {
   width: 100%;
   padding: 18px 18px 0 18px;
@@ -451,13 +460,14 @@ a, .clickable-text {
   .whats-new p {
     color: black;
     margin-top: 0;
+    margin-bottom: 0.5rem;
     font-size: 19px;
     font-weight: 600; }
 
 .whats-new-top-img {
   width: 100%;
   margin: 0 auto;
-  padding: 1rem 1rem 0.5rem 1rem;
+  padding: 1rem;
   box-sizing: border-box; }
 
 .whats-new-feed {
@@ -617,7 +627,7 @@ h5 {
   box-shadow: 0 4px 1px #888888; }
   .button-2:hover, .button-3:hover {
     cursor: pointer;
-    background-color: whitesmoke;
+    background-color: #e5e5e5;
     text-decoration: none; }
 
 .button-3 {

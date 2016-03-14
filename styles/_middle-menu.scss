@@ -94,6 +94,10 @@
 
 	.button-2{
 		width: 300px;
+
+		&:hover{
+			text-decoration: none;
+		}
 	}
 }
 
@@ -126,6 +130,7 @@
 
 .profiles-icon{
 	width: 15%;
+	min-width: 28.344px;
 	float: left;
 	border: 1px solid white;
 	box-sizing: border-box;
@@ -179,6 +184,10 @@
 
 	p{
 		color: $brand-grey;
+
+		&:hover{
+			text-decoration: none;
+		}
 	}
 
 	.odd-text-out{
@@ -208,8 +217,8 @@
 	}
 
 	.more-profiles{
-		padding-top: 11px;
-		padding-bottom: 21px;
+		padding-top: 2%;
+		padding-bottom: 5%;
 		font-size: 20px;
 	}
 }
@@ -234,10 +243,10 @@
 	}
 
 	.more-profiles{
-		max-width: 25.453px;
+		max-width: 28.344px;
 		font-size: 1rem;
 		padding-top: 0;
-		padding-bottom: 6px;
+		padding-bottom: 8px;
 	}
 }
 
